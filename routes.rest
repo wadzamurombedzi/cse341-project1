@@ -1,0 +1,35 @@
+// LOCALHOST
+### Get all medicals
+
+Get http://localhost:3000/medicals
+
+### Get medicals by id
+GET http://localhost:3000/medicals/67f45917900b62527c246acc
+
+### Create contact
+POST http://localhost:3000/medicals/  HTTP/1:1
+content-type: application/json
+
+{
+    "name": "backache pain",
+    "tablets": "exercises",
+    "dosage": "physiotherapy",
+    "timing": "as many times you can a day",
+    "period": "when in pain",
+    "instructed by": "wadzamurombedzi"
+}
+
+### PUT contact
+PUT http://localhost:3000/medicals/HTTP/1.1
+content-type: application/json
+
+{
+    "name": "backache pain",
+    "tablets": "exercises",
+    "dosage": "physiotherapy",
+    "timing": "as many times you can a day",
+    "period": "when in pain",
+    "instructed by": "wadzamurombedzi"
+}
+### DELETE contact
+DELETE http://localhost:3000/medicals/67fa83a3a6bb1e21815693c6 HTTP/1.1
