@@ -5,7 +5,7 @@
     "description": "Medicals Api",
     "version": "1.0.0"
   },
-  "host": "project1-0j6d.onrender.com",
+  "host": "localhost:3000",
   "basePath": "/",
   "schemes": [
     "https"
